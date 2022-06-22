@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  height: 400px;
+  background-color: #28293e;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: flex-end;
+}
+
+.portfolio {
+  color: white;
+  font-size: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: white; */
+}
+
+.logo{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.text {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
