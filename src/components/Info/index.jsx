@@ -10,17 +10,25 @@ import { Button } from '../../components/Button/Button';
 //   alert("Есть контакт");
 // }
 
-export const Info = () => {
+export const Info = ({ setLead, lead, page, setPage }) => {
+
+  function setActiveLead(e) {
+    e.preventDefault();
+    setLead(true);
+  }
+
   return (
     <form className={s.info}>
       <div>
-        <h1>Welcome to Our Image Board!</h1>
-        <p>We're stoked that you're here. 🥳</p>
         <Link to={`/createPost`}>
           <div>
-            <Button>Создать пост</Button>
+            <Button>Del</Button>
           </div>
         </Link>
+        <div>
+          <button onClick={setActiveLead}>Load more  </button>
+          {/* <Button </Button> */}
+        </div>
       </div>
     </form>
   );

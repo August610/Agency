@@ -5,12 +5,17 @@ import { Cards } from "../../components/Cards";
 import { Info } from "../../components/Info";
 
 
-export const AllPosts = ({ currentUser, cards, handlePostLike}) => {
+export const AllPosts = ({ currentUser, cards, handlePostLike, setLead, lead, setPage, page}) => {
   return (
     <>
       <div className="content__cards">
 
-        <Info />
+        <Info 
+        setLead={setLead}
+        lead={lead}
+        setPage={setPage}
+        page={page}
+        />
         <Cards goods={cards} onPostLike={handlePostLike} currentUser={currentUser}/>
       </div>
     </>
