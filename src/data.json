@@ -1,5 +1,130 @@
 [
 	{
+		"id": 0,
+		"name": "Abstract",
+		"price": 290,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Design",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639777479_104-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-145.jpg"
+	},
+	{
+		"id": 1,
+		"name": "SOFA",
+		"description": "Design",
+		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612170706_161-p-fon-gradient-sinii-fioletovii-191.jpg",
+		"tags": ["new", "sale"]
+	},
+	{
+		"id": 2,
+		"name": "KeyBoard",
+		"price": 450,
+		"discount": 10,
+		"wight": "100 г",
+		"description": "Branding",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618968161_30-phonoteka_org-p-fon-gradient-rozovii-s-golubim-34.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Work Media",
+		"price": 360,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Illustration",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://phonoteka.org/uploads/posts/2021-06/1624102033_55-phonoteka_org-p-oboi-gradient-krasivo-56.jpg"
+	},
+	{
+		"id": 4,
+		"name": "DDDone",
+		"price": 300,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Motion",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238284_31-p-fon-gradient-sinii-krasnii-37.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Abstract",
+		"price": 290,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Design",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639777479_104-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-145.jpg"
+	},
+	{
+		"id": 6,
+		"name": "HandP",
+		"price": 340,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Branding",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238391_143-p-fon-gradient-sinii-krasnii-178.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Architect",
+		"price": 490,
+		"discount": 0,
+		"wight": "1 шт",
+		"description": "Motion",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://c.wallhere.com/photos/43/d5/1920x1080_px_Gradient-534296.png!d"
+	},
+	{
+		"id": 8,
+		"name": "CalC",
+		"price": 330,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Design",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://phonoteka.org/uploads/posts/2021-09/1631645072_60-phonoteka-org-p-kartinka-gradient-dlya-fona-krasivo-60.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Sport",
+		"price": 290,
+		"discount": 0,
+		"wight": "100 г",
+		"description": "Branding",
+		"isFavorite": false,
+		"isCart": false,
+		"available": true,
+		"stock": 10,
+		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618612238_38-phonoteka_org-p-fon-tsvetnoi-gradient-42.jpg"
+	},
+	{
+		"id": 10,
 		"name": "SOFA",
 		"price": 550,
 		"discount": 15,
@@ -13,6 +138,7 @@
 		"tags": ["new", "sale"]
 	},
 	{
+		"id": 11,
 		"name": "KeyBoard",
 		"price": 450,
 		"discount": 10,
@@ -25,6 +151,7 @@
 		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618968161_30-phonoteka_org-p-fon-gradient-rozovii-s-golubim-34.jpg"
 	},
 	{
+		"id": 12,
 		"name": "Work Media",
 		"price": 360,
 		"discount": 0,
@@ -37,6 +164,7 @@
 		"picture": "https://phonoteka.org/uploads/posts/2021-06/1624102033_55-phonoteka_org-p-oboi-gradient-krasivo-56.jpg"
 	},
 	{
+		"id": 13,
 		"name": "DDDone",
 		"price": 300,
 		"discount": 0,
@@ -49,6 +177,7 @@
 		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238284_31-p-fon-gradient-sinii-krasnii-37.jpg"
 	},
 	{
+		"id": 14,
 		"name": "Abstract",
 		"price": 290,
 		"discount": 0,
@@ -61,6 +190,7 @@
 		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639777479_104-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-145.jpg"
 	},
 	{
+		"id": 15,
 		"name": "HandP",
 		"price": 340,
 		"discount": 0,
@@ -73,6 +203,7 @@
 		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238391_143-p-fon-gradient-sinii-krasnii-178.jpg"
 	},
 	{
+		"id": 16,
 		"name": "Architect",
 		"price": 490,
 		"discount": 0,
@@ -85,6 +216,7 @@
 		"picture": "https://c.wallhere.com/photos/43/d5/1920x1080_px_Gradient-534296.png!d"
 	},
 	{
+		"id": 17,
 		"name": "CalC",
 		"price": 330,
 		"discount": 0,
@@ -95,234 +227,5 @@
 		"available": true,
 		"stock": 10,
 		"picture": "https://phonoteka.org/uploads/posts/2021-09/1631645072_60-phonoteka-org-p-kartinka-gradient-dlya-fona-krasivo-60.jpg"
-	},
-	{
-		"name": "Sport",
-		"price": 290,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618612238_38-phonoteka_org-p-fon-tsvetnoi-gradient-42.jpg"
-	},
-	{
-		"name": "SOFA",
-		"price": 550,
-		"discount": 15,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612170706_161-p-fon-gradient-sinii-fioletovii-191.jpg",
-		"tags": ["new", "sale"]
-	},
-	{
-		"name": "KeyBoard",
-		"price": 450,
-		"discount": 10,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618968161_30-phonoteka_org-p-fon-gradient-rozovii-s-golubim-34.jpg"
-	},
-	{
-		"name": "Work Media",
-		"price": 360,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Illustration",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-06/1624102033_55-phonoteka_org-p-oboi-gradient-krasivo-56.jpg"
-	},
-	{
-		"name": "DDDone",
-		"price": 300,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Motion",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238284_31-p-fon-gradient-sinii-krasnii-37.jpg"
-	},
-	{
-		"name": "Abstract",
-		"price": 290,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639777479_104-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-145.jpg"
-	},
-	{
-		"name": "HandP",
-		"price": 340,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238391_143-p-fon-gradient-sinii-krasnii-178.jpg"
-	},
-	{
-		"name": "Architect",
-		"price": 490,
-		"discount": 0,
-		"wight": "1 шт",
-		"description": "Motion",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://c.wallhere.com/photos/43/d5/1920x1080_px_Gradient-534296.png!d"
-	},
-	{
-		"name": "CalC",
-		"price": 330,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-09/1631645072_60-phonoteka-org-p-kartinka-gradient-dlya-fona-krasivo-60.jpg"
-	},
-	{
-		"name": "Sport",
-		"price": 290,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618612238_38-phonoteka_org-p-fon-tsvetnoi-gradient-42.jpg"
-	},{
-		"name": "SOFA",
-		"price": 550,
-		"discount": 15,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612170706_161-p-fon-gradient-sinii-fioletovii-191.jpg",
-		"tags": ["new", "sale"]
-	},
-	{
-		"name": "KeyBoard",
-		"price": 450,
-		"discount": 10,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618968161_30-phonoteka_org-p-fon-gradient-rozovii-s-golubim-34.jpg"
-	},
-	{
-		"name": "Work Media",
-		"price": 360,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Illustration",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-06/1624102033_55-phonoteka_org-p-oboi-gradient-krasivo-56.jpg"
-	},
-	{
-		"name": "DDDone",
-		"price": 300,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Motion",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238284_31-p-fon-gradient-sinii-krasnii-37.jpg"
-	},
-	{
-		"name": "Abstract",
-		"price": 290,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639777479_104-catherineasquithgallery-com-p-krasivii-rozovii-fon-gradient-145.jpg"
-	},
-	{
-		"name": "HandP",
-		"price": 340,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://catherineasquithgallery.com/uploads/posts/2021-02/1613238391_143-p-fon-gradient-sinii-krasnii-178.jpg"
-	},
-	{
-		"name": "Architect",
-		"price": 490,
-		"discount": 0,
-		"wight": "1 шт",
-		"description": "Motion",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://c.wallhere.com/photos/43/d5/1920x1080_px_Gradient-534296.png!d"
-	},
-	{
-		"name": "CalC",
-		"price": 330,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Design",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-09/1631645072_60-phonoteka-org-p-kartinka-gradient-dlya-fona-krasivo-60.jpg"
-	},
-	{
-		"name": "Sport",
-		"price": 290,
-		"discount": 0,
-		"wight": "100 г",
-		"description": "Branding",
-		"isFavorite": false,
-		"isCart": false,
-		"available": true,
-		"stock": 10,
-		"picture": "https://phonoteka.org/uploads/posts/2021-04/1618612238_38-phonoteka_org-p-fon-tsvetnoi-gradient-42.jpg"
 	}
 ]

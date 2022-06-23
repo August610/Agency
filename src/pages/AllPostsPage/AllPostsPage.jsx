@@ -5,7 +5,7 @@ import { Cards } from "../../components/Cards";
 import { Info } from "../../components/Info";
 
 
-export const AllPosts = ({ currentUser, cards, handlePostLike, setLead, lead, setPage, page}) => {
+export const AllPosts = ({ cards, setLead, lead, setPage, page, filterArr, handleDeleteCard}) => {
   return (
     <>
       <div className="content__cards">
@@ -16,7 +16,7 @@ export const AllPosts = ({ currentUser, cards, handlePostLike, setLead, lead, se
         setPage={setPage}
         page={page}
         />
-        <Cards goods={cards} onPostLike={handlePostLike} currentUser={currentUser}/>
+        <Cards goods={cards} filterArr={filterArr} handleDeleteCard={handleDeleteCard}/>
       </div>
     </>
   );

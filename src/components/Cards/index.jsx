@@ -4,13 +4,13 @@ import s from "./styles.module.css";
 import { Card } from "../Card";
 import ContentLoader from "react-content-loader";
 
-export const Cards = ({ goods, onPostLike}) => {
+export const Cards = ({ goods, filterArr, handleDeleteCard}) => {
 
   return (
     <>
       <div className={s.cards}>
         {goods?.map((dataItem, index) => {
-          return (<Card key={`${index}`} {...dataItem} onPostLike={onPostLike}/>)
+          return (<Card key={`${index}`} {...dataItem} handleDeleteCard={handleDeleteCard} filterArr={filterArr}/>)
         })}
       </div>
 

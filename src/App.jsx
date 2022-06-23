@@ -23,14 +23,25 @@ export const App = () => {
 
   useEffect(() => {
     if (lead) {
-      setCards(dataPhone);
+      // setCards(dataPhone);
       setCards(records(firstIndex, lastIndex));
       setLastIndex((prevState) => prevState + 9);
       setLead(false)
     }
-  }, [dataPhone, lead]);
+  }, [cards, lead]);
 
+  function filterArr(data) {
+    console.log(data);
+    setCards(dataPhone.filter(e => e.description == data));
+  }
 
+  function handleDeleteCard(id) {
+    const newCards = dataPhone.filter((card) => card.id !== id);
+    setDataPhone(newCards);
+    setCards(newCards);
+  }
+
+  console.log(dataPhone);
 
   return (
     <>
@@ -48,6 +59,8 @@ export const App = () => {
                   lead={lead}
                   setPage={setPage}
                   page={page}
+                  filterArr={filterArr}
+                  handleDeleteCard={handleDeleteCard}
                 />
                 {/* <Pagination current={page} onChange={setPagination} total={pageQty} onShowSizeChange={onShowSizeChange} showSizeChanger /> */}
               </>

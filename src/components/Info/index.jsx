@@ -10,7 +10,7 @@ import { Button } from '../../components/Button/Button';
 //   alert("Есть контакт");
 // }
 
-export const Info = ({ setLead, lead, page, setPage }) => {
+export const Info = ({ setLead, handleDeleteCard }) => {
 
   function setActiveLead(e) {
     e.preventDefault();
@@ -20,11 +20,11 @@ export const Info = ({ setLead, lead, page, setPage }) => {
   return (
     <form className={s.info}>
       <div>
-        <Link to={`/createPost`}>
+        {/* <Link to={`/createPost`}>
           <div>
-            <Button>Del</Button>
+            <Button onClick={handleDeleteCard} >Del</Button>
           </div>
-        </Link>
+        </Link> */}
         <div>
           <button onClick={setActiveLead}>Load more  </button>
           {/* <Button </Button> */}
